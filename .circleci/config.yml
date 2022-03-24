@@ -30,5 +30,6 @@ jobs:
             npm run backend:build
       - run:
           name: Generate deployment package
-          run: zip -r deploy.zip * -x ./node_modules
+          command: |
+            zip -r deploy.zip * -x ./node_modules
       
