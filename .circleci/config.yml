@@ -1,17 +1,15 @@
 version: 2.1
 orbs:
   # orgs contain basc recipes and reproducible actions (install node, aws, etc.)
-  node: circleci/node@x.y
+  node: circleci/node@5
   # different jobs are calles later in the workflows sections
 jobs:
   build:
     docker:
       # the base image can run most needed actions with orbs
-      - image: "cimg/base:stable"
+      - image: "cimg/node:16.13"
     steps:
-      - node/install:
-        node-version: '16.13'
-      - run: node --version
+      - node/install
       - checkout
       # install dependencies in both apps
       - run:
