@@ -33,7 +33,6 @@ jobs:
       - run:
           name: Generate deployment package
           command: |
-            cd/udagram-api 
             zip -r deploy.zip * -x ./node_modules
       - run:
           name: Deploy App
