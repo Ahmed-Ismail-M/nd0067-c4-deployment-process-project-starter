@@ -32,11 +32,11 @@ jobs:
           name: Back-End Build
           command: |
             npm run backend:build
-      # - run:
-      #     name: Generate deployment package
-      #     command: |
-      #       zip -r deploy.zip * -x ./udiagram-api/node_modules ./udiagram-frontend/node_modules
       - run:
-          name: Deploy App
+          name: Back-End Deploy
           command: |
             npm run backend:deploy
+      - run:
+          name: Front-End Deploy
+          command: |
+            npm run frontend:deploy
