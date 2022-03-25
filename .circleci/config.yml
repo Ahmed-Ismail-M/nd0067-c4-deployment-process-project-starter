@@ -30,10 +30,10 @@ jobs:
           name: Back-End Build
           command: |
             npm run backend:build
-      - run:
-          name: Generate deployment package
-          command: |
-            zip -r deploy.zip * -x ./node_modules
+      # - run:
+      #     name: Generate deployment package
+      #     command: |
+      #       zip -r deploy.zip * -x ./udiagram-api/node_modules ./udiagram-frontend/node_modules
       - run:
           name: Deploy App
           command: |
