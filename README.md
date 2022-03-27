@@ -2,6 +2,10 @@
 
 This application is provided to you as an alternative starter project if you do not wish to host your own code done in the previous courses of this nanodegree. The udagram application is a fairly simple application that includes all the major components of a Full-Stack web application.
 
+## Hosting URL
+- FrontEnd http://udagram-pro.s3-website-us-east-1.amazonaws.com
+- BackEnd http://aim-env.eba-vapkyjwt.us-east-1.elasticbeanstalk.com/
+
 ## Getting Started
 
 1. Clone this repo locally into the location of your choice.
