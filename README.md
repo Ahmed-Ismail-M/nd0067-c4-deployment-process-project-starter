@@ -6,6 +6,14 @@ This application is provided to you as an alternative starter project if you do 
 - FrontEnd http://udagram-pro.s3-website-us-east-1.amazonaws.com
 - BackEnd http://aim-env.eba-vapkyjwt.us-east-1.elasticbeanstalk.com/
 
+## Pipeline Process
+1. Front-End Installation
+2. Back-End Installation
+3. Front-End Building
+4. Back-End Building
+5. Back-End Deployment
+6. Front-End Deployment
+
 ## Getting Started
 
 1. Clone this repo locally into the location of your choice.
