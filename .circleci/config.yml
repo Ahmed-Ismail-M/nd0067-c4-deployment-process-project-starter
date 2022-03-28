@@ -7,7 +7,7 @@ orbs:
   # different jobs are calles later in the workflows sections
 jobs:
   build:
-      branches:
+    branches:
       only:
         - master
     docker:
