@@ -9,7 +9,8 @@ jobs:
   build:
     filters:
       branches:
-        only: /master\/.*/
+        only: 
+        -master
     docker:
       # the base image can run most needed actions with orbs
       - image: "cimg/node:16.13"
